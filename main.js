@@ -3,7 +3,9 @@ import inquirer from "inquirer";
 import chalk from "chalk";
 let todos = [];
 let condition = true;
-console.log(chalk.redBright.bold(`\n\t WELCOME-code-with-tooba-upgraded-to-do-app`));
+console.log("=".repeat(100));
+console.log(chalk.magentaBright.bold("\n\t WELCOME-code with Tooba--to-do-app--\n"));
+console.log("=".repeat(100));
 let main = async () => {
     while (condition) {
         let selection = await inquirer.prompt([
